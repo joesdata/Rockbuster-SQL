@@ -1,4 +1,4 @@
-A SQL query utilising a common table expression which displayed the top 5 countries where the top 5 customers are located and the total customer count for that country.
+A SQL query utilising a common table expression(CTE) which displayed the top 5 countries where the top 5 customers are located and the total customer count for that country.
 
 WITH top_5_customers (customer_id, first_name, last_name, country, city, total_amount_paid) AS
   (SELECT A.customer_id, A.first_name AS "customer first name", A.last_name AS "customer
